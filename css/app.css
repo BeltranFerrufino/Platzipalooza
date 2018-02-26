@@ -1,0 +1,130 @@
+body{
+  background: #ee3f54;
+  font-family: 'Bree Serif', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', serif;
+}
+#social-container{
+  background: #1c3643;
+}
+#logo-container .callout{
+  background-color: #ee3f54;
+  color:white;
+  margin-bottom: 0;
+}
+#menu-container{
+  background-color: #16504e;
+}
+#menu-container li a{
+  font-family: 'Bree Serif', serif;
+  color: white;
+}
+#menu-container li a:hover,
+#submenu-container li a:hover{
+  color: yellow;
+}
+#submenu-container{
+border: 0;
+}
+#submenu-container li a{
+  color: white;
+  background-color: #48a19d;
+}
+#tickets-action .callout{
+  background-color: #6eb1d8;
+  color: white;
+}
+.callout{
+  margin-bottom:0;
+}
+#tickets-action .callout button{
+color: white;
+border: 1px solid white;}
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+  background-color: #5a2088;
+  color: white;
+  padding: 1em 0;
+  border:0;
+  text-transform: uppercase;
+  font-family: "Bree Serif", serif;
+}
+.tabs-content{
+  border: 0;
+}
+#lineup-container .tabs .tabs-title a{
+  font-size: 18px;
+  color: #a7fffb;
+}
+#lineup-container .tabs .tabs-title a:hover{
+  color: white;
+  background-color: #9676af;
+}
+.tabs-title{
+  display: inline-block;
+  float: none;
+}
+#lineup-container .orbit-container{
+  margin-bottom: 1em;
+}
+#lineup-container .column:nth-child(odd) figcaption{
+  text-align: right;
+}
+#tickets-container{
+  padding: 1em 0;
+  background-color: #f6e15f;
+  color: #161742;
+}
+.pricing-table{
+  border: 1px solid #161742;
+  font-family: 'Ravi Prakash', cursive;
+}
+.pricing-table li,
+.pricing-table li.description{
+  font-size: 20px;
+}
+.pricing-table li.price,
+.pricing-table li.title
+{
+  font-size: 30px;
+}
+.pricing-table a.button{
+  font-family: "Bree Serif", serif;
+}
+#info-container{
+  background-color: #161742;
+  color: white;
+  padding: 1em 0;
+}
+#info-container .info-map iframe{
+  width: 100%;
+}
+#suscribete-container{
+  background-color: #ee3f54;
+  color: white;
+  padding: 1em 0;
+}
+#suscribete-container h4 small{
+  color: #ffcddc;
+}
+#suscribete-container input [type="submit"]{
+  font-family: "Bree Serif", serif;
+}
+#suscribete-container .error-container{
+  font-family: "Bree Serif", serif;
+  color: yellow;
+
+}
+.is-invalid-input:not(:focus){
+  background-color: rgb(255, 235, 0);
+  border: 4px solid rgb(255, 131, 3);
+  color: red;
+}
+.data-sticky{
+  width: 100%;
+  z-index: 100;
+}
