@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 #menu-container li a{
   font-family: 'Bree Serif', serif;
   color: white;
+  text-transform: uppercase;
 }
 #menu-container li a:hover,
 #submenu-container li a:hover{
@@ -127,4 +128,11 @@ border: 1px solid white;}
 .data-sticky{
   width: 100%;
   z-index: 100;
+}
+#offCanvas,
+#offCanvas li a {
+  background-color: black;
+  color: white;
+  font-family: "Bree Serif", serif;
+
 }
